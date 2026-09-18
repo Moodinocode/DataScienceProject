@@ -2,6 +2,10 @@
 
 Business & Consumer Analytics project that walks through the full Intro to Data Science lifecycle using the UCI _Online Retail_ dataset.
 
+> **Companion project:** [DataScienceProjectFinal](https://github.com/Moodinocode/DataScienceProjectFinal) works from the same UCI Online Retail dataset, but treats it as a data-engineering exercise — an ordered, reproducible cleaning pipeline loaded into PostgreSQL and queried with SQL. This repository is the analytics treatment: statistical testing, a repeat-purchase model, and a Streamlit dashboard. The two are complements, not duplicates.
+
+> **Note on generated files:** everything except `Online Retail.xlsx` is produced on demand. Run `python data_preparation.py` before `project2_analysis.py` or `app.py`, since those read the cleaned workbook it writes.
+
 ## What’s Inside
 
 - `data_preparation.py` – loads the Excel workbook, cleans/enriches it, and writes fresh CSV/XLSX artifacts plus cleaning stats.

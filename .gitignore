@@ -1,0 +1,11 @@
+# Generated artifacts - recreated by data_preparation.py
+Online Retail Cleaned.xlsx
+retail_cleaned.csv
+artifacts/
+outputs/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
