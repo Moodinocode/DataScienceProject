@@ -1,0 +1,22 @@
+# Data handling
+pandas
+numpy
+openpyxl          # reading/writing the .xlsx dataset
+
+# Analysis
+scipy             # Welch t-test
+scikit-learn      # logistic regression repeat-purchase model
+duckdb            # in-process SQL over the cleaned dataframe
+
+# Visualisation
+matplotlib
+seaborn
+
+# Dashboard
+streamlit
+
+# Optional: sql_loader.py, for pushing the data into a real SQL database
+SQLAlchemy
+
+# Optional: ExtractData.py, for pulling the dataset from UCI directly
+ucimlrepo
